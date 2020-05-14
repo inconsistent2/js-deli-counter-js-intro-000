@@ -12,3 +12,9 @@ function nowServing(line){
     return `Currently serving ${servee}.`
   }
 }
+
+function currentLine(line){
+  if (line.length===0){
+    return "TThe line is currently empty."
+  }else{
+}
