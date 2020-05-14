@@ -18,7 +18,7 @@ function currentLine(line){
     return "The line is currently empty."
   }else{
     let i=0
-    var announcement=`The line is currently; `
+    var announcement=`The line is currently: `
     while (i<line.length-1) {
       announcement=announcement.concat(`${i+1}. ${line[i]}, `)
       //announcement.push(`${i+1}. ${line[i]}, `)
