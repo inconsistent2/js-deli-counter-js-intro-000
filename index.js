@@ -18,6 +18,6 @@ function currentLine(line){
     return "TThe line is currently empty."
   }else{
     for (let i=0;i<line.length;i++){
-      return `The line is currently; ${i+1}. ${line[i]}`
+      return `The line is currently; ${i+1}. ${line[i]},`
         }
 }
