@@ -25,6 +25,6 @@ function currentLine(line){
       i++
     }
       announcement=announcement.concat(`${i+1}. ${line[i]}`)
-      return `The line is currently; ${announcement}`
+      return `${announcement}`
         }
       }
