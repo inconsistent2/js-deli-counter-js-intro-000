@@ -20,10 +20,10 @@ function currentLine(line){
     let i=0
     var announcement
     while (i<(line.length-1)) {
-      announcement.push(${i++1}. ${line[i]}, )
+      announcement.push(`${i+1}. ${line[i]}, `)
       i++
     }
-      announcement.push(${i+1}. ${line[i]})
+      announcement.push(`${i+1}. ${line[i]}`)
       return `The line is currently; ${announcement}`
         }
       }
