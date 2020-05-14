@@ -19,7 +19,7 @@ function currentLine(line){
   }else{
     let i=0
     var announcement
-    while (i<(line.length-1)) {
+    while (i<line.length-1) {
       announcement.push(`${i+1}. ${line[i]}, `)
       i++
     }
